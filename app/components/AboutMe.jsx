@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const AboutMe = () => {
   return (
@@ -13,9 +14,11 @@ const AboutMe = () => {
         <div className="flex flex-col md:flex-row">
           {/* Profile Image */}
           <div className="md:w-1/3 flex justify-center md:justify-start mb-6 md:mb-0">
-            <img
+            <Image
               src="/images/profile.jpg"
               alt="Profile"
+              width={200}
+              height={200}
               className="rounded-full shadow-md h-40 w-40 object-cover"
             />
           </div>
