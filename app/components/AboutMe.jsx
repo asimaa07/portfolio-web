@@ -15,18 +15,18 @@ const AboutMe = () => {
           {/* Profile Image */}
           <div className="md:w-1/3 flex justify-center md:justify-start mb-6 md:mb-0">
             <Image
-              src="/images/profile.jpg"
+              src="/images/profile.png"
               alt="Profile"
-              width={200}
-              height={200}
+              width={300}
+              height={300}
               className="rounded-full shadow-md h-40 w-40 object-cover"
             />
           </div>
           {/* Description */}
           <div className="md:w-2/3 md:pl-8">
             <p className="text-gray-600 text-lg mb-4 font-montserrat">
-            {`Hi, I'm <span className="font-semibold text-gray-800">Asma</span>. 
-              I'm a passionate web developer with a love for crafting beautiful, user-friendly websites. 
+            {`Hi, I'm`} <span className="font-semibold text-gray-800">Asma. </span> 
+              {`I'm a passionate web developer with a love for crafting beautiful, user-friendly websites. 
               With a strong foundation in front-end technologies like React and Tailwind CSS, 
               I enjoy turning complex problems into simple, elegant solutions.`}
             </p>
