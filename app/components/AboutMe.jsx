@@ -22,14 +22,14 @@ const AboutMe = () => {
           {/* Description */}
           <div className="md:w-2/3 md:pl-8">
             <p className="text-gray-600 text-lg mb-4 font-montserrat">
-              Hi, I'm <span className="font-semibold text-gray-800">Asma</span>. 
+            {`Hi, I'm <span className="font-semibold text-gray-800">Asma</span>. 
               I'm a passionate web developer with a love for crafting beautiful, user-friendly websites. 
               With a strong foundation in front-end technologies like React and Tailwind CSS, 
-              I enjoy turning complex problems into simple, elegant solutions.
+              I enjoy turning complex problems into simple, elegant solutions.`}
             </p>
             <p className="text-gray-600 text-lg">
-              When I'm not coding, I love exploring new technologies, 
-              learning about design trends, and collaborating with other developers.
+            {`When I'm not coding, I love exploring new technologies, 
+              learning about design trends, and collaborating with other developers.`}
             </p>
           </div>
         </div>

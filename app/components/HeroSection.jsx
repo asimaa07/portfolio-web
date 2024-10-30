@@ -12,12 +12,12 @@ const HeroSection = () => {
         <div className="col-span-7 pt-6 sm:pl-20 order-2 sm:order-1">
           <h1 className="font-montserrat mb-4 text-4xl lg:text-6xl font-bold items-center text-center sm:text-left bg-gradient-to-r from-black to-gray-400 text-transparent bg-clip-text">
             <span className="text-[#608BC1]">
-              Hello, I'm Asma <br/> 
+              {`Hello, I'm Asma <br/> `}
             </span>
             Web Developer
           </h1>
           <p className="text-[#12223f] font-medium sm:text-lg lg:text-xl p-6 text-center sm:text-left sm:p-2 sm:font-semibold">
-          Let's bring your ideas to life with code and creativity!
+          {`Let's bring your ideas to life with code and creativity!`}
           </p>
         </div>
         <div className="col-span-7 sm:col-span-12 order-3 flex justify-center sm:justify-start pt-4 sm:pl-20">
