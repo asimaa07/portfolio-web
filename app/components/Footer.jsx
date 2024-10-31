@@ -10,7 +10,7 @@ const Footer = () => {
         
         <div className="flex items-center space-x-2 sm:pt-6 justify-center">
           <EnvelopeIcon className="h-5 w-5 text-gray-600" />
-          <p className="text-center font-medium sm:text-2xl">Asmasadiah91@gmail.com</p>
+          <p className="text-center font-medium sm:text-2xl text-black">Asmasadiah91@gmail.com</p>
         </div>
 
         <a
