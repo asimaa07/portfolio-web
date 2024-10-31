@@ -47,6 +47,7 @@ const AboutMe = () => {
             <li className="bg-[#8EACCD] text-white px-4 py-2 rounded-full mr-2 mb-2 font-medium">UI/UX Design</li>
             <li className="bg-[#7AB2B2] text-white px-4 py-2 rounded-full mr-2 mb-2 font-medium">Flutter</li>
             <li className="bg-[#D2E0FB] text-black px-4 py-2 rounded-full mr-2 mb-2 font-medium">Python</li>
+            <li className="bg-[#7AB2B2] text-white px-4 py-2 rounded-full mr-2 mb-2 font-medium">Git</li>
           </ul>
         </div>
       </div>

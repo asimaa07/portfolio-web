@@ -6,7 +6,7 @@ const Project = () => {
       title: 'KawanBantu',
       description: 'KawanBantu is a Software-as-a-Service (SaaS) designed for nonprofits, enabling individuals and communities to easily, quickly, and securely create and manage fundraising campaigns on their own platform.',
       imageUrl: '/images/kbt.png',
-      link: '#',
+      link: 'https://www.kawanbantu.com/',
       techStack: ['Typescript', 'Next.Js', 'Tailwind'],
     },
     {

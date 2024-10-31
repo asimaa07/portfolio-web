@@ -14,12 +14,26 @@ const HeroSection = () => {
             <span className="text-[#608BC1]">
               {`Hello, I'm Asma`} <br/> 
             </span>
-            Web Developer
+            <span className="bg-gradient-to-r from-black to-gray-600 text-transparent bg-clip-text">
+              <TypeAnimation
+                sequence={[
+                  'Web Developer', // Teks pertama
+                  2000,            // Durasi tampilan teks pertama
+                  'Mobile Developer', // Teks kedua
+                  2000,            // Durasi tampilan teks kedua
+                ]}
+                wrapper="span"
+                speed={50} // Kecepatan animasi
+                repeat={Infinity} // Mengulang animasi tanpa henti
+              />
+            </span>
           </h1>
           <p className="text-[#12223f] font-medium sm:text-lg lg:text-xl p-6 text-center sm:text-left sm:p-2 sm:font-semibold">
-          {`Let's bring your ideas to life with code and creativity!`}
+            {`Let's bring your ideas to life with code and creativity!`}
           </p>
         </div>
+        
+        {/* Tombol */}
         <div className="col-span-7 sm:col-span-12 order-3 flex justify-center sm:justify-start pt-4 sm:pl-20">
           <a href="https://wa.me/6283811404951" className="mr-4 ml-2 py-3 rounded-full w-[200px] bg-gray-700 text-white shadow-xl hover:bg-black text-center">
             Hire Me
