@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
   return (
-    <section className="pt-10 relative lg:py-16 font-montserrat w-full overflow-x-hidden h-[700px] mx-0 px-0 bg-[radial-gradient(ellipse_70%_20%_at_bottom_left,#183EC2,#EAEEFE_100%)]">
+    <section className="pt-10 relative lg:py-16 font-montserrat w-full overflow-x-hidden h-[700px] sm:min-h-screen mx-0 px-0 bg-[radial-gradient(ellipse_70%_20%_at_bottom_left,#183EC2,#EAEEFE_100%)]">
       <div className="grid grid-cols-1 sm:grid-cols-12 justify-center items-center lg:mt-6">
         
         {/* Teks dan Tombol */}
@@ -41,7 +41,7 @@ const HeroSection = () => {
           <a 
             href="/images/cv-asma.pdf" 
             download 
-            className="mr-2 ml-4 py-3 rounded-full w-[200px] bg-gray-700 text-white shadow-xl hover:bg-black text-center flex justify-center items-center"
+            className="mr-2 ml-4 rounded-full w-[200px] bg-gray-700 text-white shadow-xl hover:bg-black text-center flex justify-center items-center"
           >
             Download CV
           </a>

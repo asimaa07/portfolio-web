@@ -7,6 +7,18 @@ const Sertification = () => {
 
   const projectData = [
     {
+      title: 'Dicoding ',
+      description: 'Belajar Dasar Pemrograman Web',
+      imageUrl: '/images/sertif4.png',
+      link: '#',
+    },
+    {
+      title: 'Dicoding ',
+      description: 'Belajar Dasar Pemrograman Javascript',
+      imageUrl: '/images/sertif5.png',
+      link: '#',
+    },
+    {
       title: 'Cisco Networking Academy',
       description: 'CCNAv7: Introduction to Networks',
       imageUrl: '/images/sertif1.png', // URL untuk gambar sertifikat
@@ -44,7 +56,7 @@ const Sertification = () => {
         <h2 className="text-3xl font-bold bg-gradient-to-t from-[#608BC1] to-[#133E87] text-transparent bg-clip-text mb-8 text-center">
           Sertification
         </h2>
-        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center">
           {projectData.map((project, index) => (
             <div key={index} className="bg-gradient-to-tr from-[#F3F3E0] to-[#CBDCEB] shadow-lg rounded-2xl overflow-hidden">
               <div className="p-6">
