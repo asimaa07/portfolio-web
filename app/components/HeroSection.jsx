@@ -17,14 +17,14 @@ const HeroSection = () => {
             <span className="bg-gradient-to-r from-black to-gray-600 text-transparent bg-clip-text">
               <TypeAnimation
                 sequence={[
-                  'Web Developer', // Teks pertama
-                  2000,            // Durasi tampilan teks pertama
-                  'Mobile Developer', // Teks kedua
-                  2000,            // Durasi tampilan teks kedua
+                  'Web Developer',
+                  2000,            
+                  'Mobile Developer', 
+                  2000,            
                 ]}
                 wrapper="span"
-                speed={50} // Kecepatan animasi
-                repeat={Infinity} // Mengulang animasi tanpa henti
+                speed={50} 
+                repeat={Infinity} 
               />
             </span>
           </h1>
@@ -39,7 +39,7 @@ const HeroSection = () => {
             Hire Me
           </a>
           <a 
-            href="/images/cv-asma.pdf" 
+            href="/images/CV_ASMA SADIYAH.pdf" 
             download 
             className="mr-2 ml-4 rounded-full w-[200px] bg-gray-700 text-white shadow-xl hover:bg-black text-center flex justify-center items-center"
           >

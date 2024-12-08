@@ -7,7 +7,13 @@ const Sertification = () => {
 
   const projectData = [
     {
-      title: 'Dicoding ',
+      title: 'Dicoding',
+      description: 'Belajar Membuat Aplikasi Web dengan React',
+      imageUrl: '/images/sertif6.png',
+      link: '#',
+    },
+    {
+      title: 'Dicoding',
       description: 'Belajar Dasar Pemrograman Web',
       imageUrl: '/images/sertif4.png',
       link: '#',
