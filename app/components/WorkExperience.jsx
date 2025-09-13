@@ -3,23 +3,33 @@ import React from 'react';
 const WorkExperience = () => {
   const educationData = [
     {
-      company: 'KawanBantu',
-      position: 'Front End Developer Intern',
-      year: '2024',
-      description: 'Developing the KawanBantu website and fixing bugs to improve functionality and user experience.',
+      company: "Telkom Indonesia",
+      position: "Front End Developer Intern",
+      year: "2025",
+      description:
+        "Developing the Telkom Indonesia's digital product website and fixing bugs to improve functionality and user experience.",
     },
     {
-      company: 'Ministry of Religious Affairs',
-      position: 'Mobile Developer Intern',
-      year: '2024',
-      description: 'Developed a mobile application to detect MRZ data from passport photos, convert it to text, and integrate it with an API for streamlined data processing and verification.',
+      company: "KawanBantu",
+      position: "Front End Developer Intern",
+      year: "2024",
+      description:
+        "Developing the KawanBantu website and fixing bugs to improve functionality and user experience.",
     },
     {
-        company: 'Solusi Digital Coding Academy',
-        position: 'Coding Module Author',
-        year: '2023',
-        description: 'Created teaching modules for children coding classes, focusing on introducing programming concepts using the Lua language.',
-      },
+      company: "Ministry of Religious Affairs",
+      position: "Mobile Developer Intern",
+      year: "2024",
+      description:
+        "Developed a mobile application to detect MRZ data from passport photos, convert it to text, and integrate it with an API for streamlined data processing and verification.",
+    },
+    {
+      company: "Solusi Digital Coding Academy",
+      position: "Coding Module Author",
+      year: "2023",
+      description:
+        "Created teaching modules for children coding classes, focusing on introducing programming concepts using the Lua language.",
+    },
   ];
 
   return (

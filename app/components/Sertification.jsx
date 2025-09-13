@@ -60,7 +60,7 @@ const Sertification = () => {
     <div className="py-12 px-6 font-montserrat">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold bg-gradient-to-t from-[#608BC1] to-[#133E87] text-transparent bg-clip-text mb-8 text-center">
-          Sertification
+          Certification
         </h2>
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center">
           {projectData.map((project, index) => (

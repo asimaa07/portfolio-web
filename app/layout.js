@@ -1,4 +1,4 @@
-// app/layout.tsx atau app/layout.jsx
+
 import './globals.css'
 import { Montserrat } from 'next/font/google'
 

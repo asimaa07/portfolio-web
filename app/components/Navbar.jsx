@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import NavLink from "./NavLink.jsx";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
@@ -27,11 +26,11 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.innerWidth >= 768) { // Hanya untuk tampilan desktop
+      if (window.innerWidth >= 768) {
         if (window.scrollY > lastScrollY) {
-          setShowNavbar(false); // Scroll ke bawah, navbar hilang
+          setShowNavbar(false);
         } else {
-          setShowNavbar(true); // Scroll ke atas, navbar muncul
+          setShowNavbar(true);
         }
       }
       setLastScrollY(window.scrollY);
@@ -46,12 +45,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed mx-auto top-0 left-0 right-0 z-10 bg-white sm:bg-transparent bg-opacity-100 transition-transform duration-300 ${
+      className={`fixed mx-auto shadow-lg left-0 right-0 z-10 bg-white/40 backdrop-blur-md transition-transform duration-300 rounded-full w-96 ${
         showNavbar ? "translate-y-0" : "-translate-y-full"
-      }`}
+      } ${!window.scrollY ? "top-5" : "top-0"}`}
     >
       <div className="flex container lg:py-4 flex-wrap items-center sm:justify-center justify-end mx-auto px-4 py-2">
-        
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button
@@ -70,7 +68,7 @@ const Navbar = () => {
           )}
         </div>
         <div className="menu hidden md:block md:w-auto" id="navbar">
-          <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
+          <ul className="flex md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
               <li key={index} className="text-black">
                 <NavLink href={link.path} title={link.title} />
