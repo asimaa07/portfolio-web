@@ -6,7 +6,7 @@ const SecondHeero = () => {
   return (
     <section className="">
       <h1 className="mb-6 transform -translate-y-10 text-4xl md:text-6xl font-bold  text-[#EAE3D2]  bg-clip-text leading-tight">
-        Hello, I'm <span className="text-[#013237]">Asma</span>
+        Hello, I&apos;m <span className="text-[#013237]">Asma</span>
         <br />
         <span className="bg-gradient-to-r from-black to-gray-600 text-transparent bg-clip-text">
           <TypeAnimation
@@ -45,8 +45,6 @@ const SecondHeero = () => {
           Download CV
         </a>
       </div>
-
-      
     </section>
   );
 };

@@ -7,8 +7,6 @@ const AboutMe = () => {
       className="relative w-full flex flex-col items-center py-20 px-4 overflow-hidden bg-white"
       id="AboutMe"
     >
-      {/* Decorative 3D Blue Elements */}
-
       <img
         src="/images/kotak.png"
         className="absolute w-[200px] h-[200px] top-30 left-10 animate-float delay-1000"
@@ -40,14 +38,14 @@ const AboutMe = () => {
           {/* Description */}
           <div className="bg-white rounded-2xl p-6 shadow-inner border border-[#EAE3D2] mb-4">
             <p className="text-[#1C3879] text-lg font-montserrat mb-2">
-              Hi, I'm Asma. I'm a passionate Developer With{" "}
+              Hi, I&apos;m Asma. I&apos;m a passionate Developer with{" "}
               <span className="font-bold text-[#607EAA]">
                 1 years of experience
               </span>{" "}
               in building modern, user-friendly websites and applications. With
               a strong foundation in front-end technologies like React and
               Tailwind CSS, I enjoy turning complex problems into simple,
-              elegant solutions. When I'm not coding, I love exploring new
+              elegant solutions. When I&apos;m not coding, I love exploring new
               technologies, learning about design trends, and collaborating with
               other developers.
             </p>
