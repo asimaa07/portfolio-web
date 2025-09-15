@@ -5,15 +5,13 @@ import Project from "./components/Project";
 import Sertification from "./components/Sertification";
 import WorkExperience from "./components/WorkExperience";
 import Footer from "./components/Footer";
-import SplinePage from "./components/Spline";
+export const dynamic = "force-dynamic";
 
-export default function Home() {
+export default async function Home() {
   return (
     <main className="">
       <Navbar />
-
       <HeroSection />
-
       <AboutMe />
       <Project />
       <Sertification />
